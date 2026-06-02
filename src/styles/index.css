@@ -1,0 +1,45 @@
+p {
+    font-size: 20px;
+}
+
+p.greet {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Targets class */
+.greet {
+    color: brown;
+}
+
+/* Targets id */
+#greet {
+    font-weight: 900;
+}
+
+/* .desc {
+    color: blueviolet;
+} */
+
+body {
+    background-color: beige;
+}
+
+/* Colours */
+
+.desc {
+    background-color: rgb(6, 80, 80);
+    color: #ffff;
+    border: 2px dotted blue;
+}
+
+/* Backgrounds */
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("/src/public/cybertruck.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: bisque;
+    background-size: cover;
+}
